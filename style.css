@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+:root{
+    --green:#54E6AF;
+    --white:#FFFFFF;
+    --black:#121725;
+    --gray:#2C344B;
+    --virtxa:#5A668A;
+    --light:#C2CBE5;
+}
+
+
+
+
+
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--black);
+    background-image: url(./image-host2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+   
+}
+#error-message{
+    display: none;
+}
+.logo{
+    width: 134.851px;
+    height: 56px;
+    margin-top: 62px;
+    margin-bottom: 57px;
+    padding: 24px 24px 0px 24px;
+}
+.main{
+    background-color: rgba(18, 23, 37,  0.7993);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    
+}
+.publish{
+    color: var(--green);
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    text-transform: uppercase;
+    
+}
+.txt1{
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.eve{
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+.b-txt{
+    width: 327px;
+    color: var(--light);
+    font-family: "Archivo", sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 16px;
+    margin-bottom: 23px;
+}
+.logoebi{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.spoty{
+    width: 56px;
+    height: 17px;
+}
+.apple{
+    width: 45px;
+    height: 17px;
+}
+.google{
+    width: 73px;
+    height: 11px;
+}
+.cast{
+    width: 77px;
+    height: 15px;
+}
+
+.mail{
+    background-color: var(--gray);
+    font-weight: 400;
+    line-height: 28px;
+    width: 295px;
+    height: 46px;
+    border-radius: 28px;
+    border: 0px;
+    font-size: 14px;
+    font-family: "Archivo", sans-serif;
+    padding-left: 32px;
+    
+}
+
+input::placeholder{
+    color: var(--white);
+    opacity: 0.5;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: "Archivo", sans-serif;
+   
+  }
+button{
+    width: 326px;
+    height: 46px;
+    border-radius: 28px;
+    background-color: var(--green);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 94px;
+}
+.btn-txt2{
+    color: var(--black);
+    font-weight: 400;
+    line-height: 28px;
+    font-family: "Archivo", sans-serif;
+    font-size: 14px;
+}
+.wertila{
+    display: none;
+}
+
+
+@media(min-width:768px){
+    body{
+        background: #121725;
+        align-items: flex-start;
+    }
+    .main{
+     
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-content: center;
+        
+    }
+    .logo{
+        margin-top: 50px;
+        padding: 0px;
+        margin-left: 39px;
+        margin-bottom: 152px;
+    }
+    .momacilet{
+        position: absolute;
+        margin-left: 277px;
+        opacity: 0.7993;
+        background-image: url(./image-host.jpg);
+        
+        width: 491px;
+        height: 767px;
+    }
+    .mtavari{
+        position: relative;
+        width: 635px;
+        height: 509px;
+        margin-left: 39px;
+        background-color: var(--black);
+    }
+    .publish{
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        text-transform: uppercase;
+        font-family: "Archivo", sans-serif;
+        color: var(--green);
+    }
+    .eve{
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        text-transform: uppercase;
+        font-family: "Archivo", sans-serif;
+        color: var(--white);
+        
+    }
+    .txt1{
+        width: 635px;
+        align-items: flex-start;
+        margin-top: 93px;
+    }
+    .b-txt{
+        width: 445px;
+        font-size: 18px;
+        line-height: 28px; 
+        text-align: left;
+        margin-top: 31px;
+        margin-bottom: 40px;
+    }
+    .meore{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .mail{
+        background-color: var(--gray);
+        font-weight: 900;
+        line-height: 28px;
+        width: 427px;
+        height: 56px;
+        border-radius: 28px;
+        border: 0px;
+        font-size: 14px;
+        font-family: "Archivo", sans-serif;
+        padding-left: 32px;
+        position: relative;
+        
+    }
+    button{
+        width: 162px;
+        height: 46px;
+        border-radius: 28px;
+        background-color: var(--green);
+        border: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        position: absolute;
+        margin-left: 293px;
+        margin-top: 5px;
+    }
+    .btn-txt2{
+        font-weight: 900;
+    }
+    .logoebi{
+        margin-top: 64px;
+        gap: 40px;
+        align-items: center;
+    }
+    .spoty{
+        width: 96px;
+        height: 29px;
+    }
+    .apple{
+        width: 78px;
+        height: 29px;
+    }
+    .google{
+        width: 125px;
+        height: 18px;
+    }
+    .cast{
+        width: 129px;
+        height: 26px;
+    }
+    .wertila{
+        display: block;
+        margin-top: 100px;
+        
+    }
+    
+
+}
+@media(min-width:1440px){
+    .logo{
+        margin-top: 102px;
+        padding: 0px;
+        margin-left: 165px;
+        margin-bottom: 103px;
+    }
+    .mtavari{
+        position: relative;
+        width: 723px;
+        margin-left: 165px;
+        background-color: var(--black);
+    }
+    .momacilet{
+        position: absolute;
+        margin-left: 552px;
+        margin-top: 130px;
+        background-image: url(./image-host3.jpg);
+        width: 888px;
+        height: 640px;
+        opacity: 0.7993;
+    }
+    .wertila{
+        display: block;
+        position: absolute;
+        margin-top: -100px;
+        margin-left: 1050px;
+        
+    }
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
